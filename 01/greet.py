@@ -11,4 +11,3 @@ args = parser.parse_args()
 stock = yf.Ticker(args.ticker)
 price = stock.info['currentPrice']
 print(f"현재가: ${price}") # 현재가격 출력
-
